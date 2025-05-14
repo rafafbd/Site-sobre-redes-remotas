@@ -1,0 +1,70 @@
+
+:root{
+    --branco: #ffffff;
+    --bracoc: #ecebeb;
+    --pretoEsc: #0a0a0a;
+    --pretoCla: #1b1b1b ;
+}
+
+body{
+    margin: 0;
+}
+
+.flex-space{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.625rem;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.meio{
+    display: flex;
+    align-items: center;
+}
+
+.full-content{
+    width: 60%;
+}
+
+.imagem{
+    width: 60%;
+    height: 5rem;
+}
+
+.subtitulo{
+    color: var(--branco);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.texto{
+    color: var(--bracoc);
+    font-size: 1.5rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: var(--pretoEsc);
+}
+
+.logo{
+    height: 5rem;
+}
+
+.aHead{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+main{
+    padding-top: 5rem;
+    background-color: var(--pretoCla); 
+    
+}
+
