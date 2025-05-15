@@ -13,6 +13,7 @@ body{
 .flex-space{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 0.625rem;
 }
 
@@ -31,9 +32,18 @@ body{
     width: 60%;
 }
 
+.padCima{
+    padding-top: 1rem;
+}
+
 .imagem{
-    width: 60%;
-    height: 5rem;
+    height: 18rem;
+}
+
+.titulo{
+    color: var(--branco);
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
 .subtitulo{
@@ -45,6 +55,14 @@ body{
 .texto{
     color: var(--bracoc);
     font-size: 1.5rem;
+}
+
+.lista{
+    list-style-type: disc;
+}
+
+.lista li::marker{
+    color: var(--branco);
 }
 
 header{
