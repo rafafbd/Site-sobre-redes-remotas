@@ -12,9 +12,19 @@ body{
 
 .flex-space{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 0.625rem;
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap: 1rem;
+}
+
+.central{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .centro{
@@ -37,24 +47,26 @@ body{
 }
 
 .imagem{
-    height: 18rem;
+    height: 28rem;
 }
 
 .titulo{
     color: var(--branco);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bolder;
 }
 
 .subtitulo{
     color: var(--branco);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    border-top: solid 0.1rem var(--branco);
+    margin-top: 5rem;
 }
 
 .texto{
     color: var(--bracoc);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .lista{
@@ -69,15 +81,25 @@ header{
     position: fixed;
     width: 100%;
     background-color: var(--pretoEsc);
+    margin-bottom: 1rem;
+}
+
+.logos{
+    margin-left: 2rem;
 }
 
 .logo{
     height: 5rem;
 }
 
+.nav{
+    margin-right: 2rem;
+}
+
 .aHead{
     color: var(--branco);
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 main{
