@@ -1,0 +1,115 @@
+
+:root{
+    --branco: #ffffff;
+    --bracoc: #ecebeb;
+    --pretoEsc: #0a0a0a;
+    --pretoCla: #1b1b1b ;
+}
+
+body{
+    margin: 0;
+}
+
+.image-context{
+    width: 60%;
+}
+
+.full-content{
+    width: 60%;
+}
+
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap: 1rem;
+}
+
+.central{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.meio{
+    display: flex;
+    align-items: center;
+}
+
+
+.padCima{
+    padding-top: 1rem;
+}
+
+.imagem{
+    height: 28rem;
+}
+
+.titulo{
+    color: var(--branco);
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.subtitulo{
+    color: var(--branco);
+    font-size: 3rem;
+    font-weight: bold;
+    border-top: solid 0.1rem var(--branco);
+    margin-top: 5rem;
+}
+
+.texto{
+    color: var(--bracoc);
+    font-size: 2.5rem;
+}
+
+.lista{
+    list-style-type: disc;
+}
+
+.lista li::marker{
+    color: var(--branco);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: var(--pretoEsc);
+    margin-bottom: 1rem;
+}
+
+.logos{
+    margin-left: 2rem;
+}
+
+.logo{
+    height: 5rem;
+}
+
+.nav{
+    margin-right: 2rem;
+}
+
+.aHead{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+main{
+    padding-top: 5rem;
+    background-color: var(--pretoCla); 
+    
+}
+
