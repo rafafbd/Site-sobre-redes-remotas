@@ -1,0 +1,13 @@
+
+Guia para o seminário:
+
+    Começar falando sobre as redes remotas de maneira geral, o que são, objetivos, importância etc. Nessa parte de importância, pode-se citar alguma empresa ou sistema do governo a fim
+de concretizar o conceito.
+    Em seguida, ao falar dos modos de conexão, explicar até tunelamento e depois falar sobre os protocolos.
+    Na parte dos protocolos, tentar não só falar o que eles são, mas também relacionar suas características com necessidas e aplicações reais. Essa quebra para falar sobre protocolos é
+para contextualizar o MPLS.
+    Depois que falar do MPLS - terminando a parte de protocolos - já dá para dar gancho com o resto da explicação e 
+
+
+
+    No fim, falar sobre curiosidades: cabos marinos, satelite etc.

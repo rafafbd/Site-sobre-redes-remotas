@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Redes remotas</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -22,6 +22,10 @@
     </header>
     <main class="centro">
 
+        <div class="full-content centro">
+            <h1 class="titulo">Introdução</h1>
+        </div>
+        <!-- Introdução -->
         <div class="full-content">
             <h1 class="subtitulo">O que são redes remotas?</h1>
         </div>
@@ -32,11 +36,11 @@
             <img src="/Assets/placeholder.png" alt="" class="full-content imagem">
         </div>
 
-
+        <!-- Objetivos -->
         <div class="full-content">
-            <h1 class="subtitulo">WAN (Wide Area Network)</h1>
+            <h1 class="subtitulo">Objetivos</h1>
         </div>
-        <p class="full-content texto">As WANs tem como garantir, entre localidades distintas:</p>
+        <p class="full-content texto">As WANs tem como objetivo garantir, entre localidades distintas:</p>
         <div class="full-content flex-space padCima">
             <img src="/Assets/placeholder.png" alt="" class="imagem">
             <ul class="lista">
@@ -53,6 +57,7 @@
         </div>
 
 
+        <!-- Importância -->
         <div class="full-content">
             <div>
                 <h1 class="subtitulo">Importância</h1>
@@ -70,8 +75,72 @@
             </ul>
         </div>
 
+        <!-- Modos de conexão -->
+        <div class="full-content centro">
+            <h1 class="titulo">Modos de conexão</h1>
+        </div>
 
+        <div class="full-content flex-space padCima">
+            <ul class="lista">
+                <li><p class="texto">Linhas Alugadas</p></li>
+                <li><p class="texto">Tunelamento</p></li>
+                <li><p class="texto">MPLS (Multiprotocol Label Switching)</span></p></li>
+                <li><p class="texto">SD-WAN (WAN Definida por Software)</span></p></li>
+                <li><p class="texto">MPLS vs SD-WAN</p></li>
+            </ul>
+        </div>
 
+        <div class="full-content">
+            <h1 class="subtitulo">Linhas Alugadas</h1>
+        </div>
+        <div class="full-content flex-space padCima">
+            <img src="/Assets/placeholder.png" alt="" class="imagem">
+            <ul class="lista">
+                <li><p class="texto">Utilizadas para integrar <span>duas LANs distantes</span>.</p></li>
+                <li><p class="texto">Fornecidas por <span>provedores de serviços de Internet (ISPs)</span>.</p></li>
+                <li><p class="texto">Oferecem <span>alta disponibilidade</span> e <span>baixa latência</span>.</p></li>
+                <li><p class="texto">Ideais para aplicações com <span>tráfego constante e estável</span>.</p></li>
+            </ul>
+        </div>
+
+        <div class="full-content">
+            <h1 class="subtitulo">Tunelamento</h1>
+        </div>
+        <div class="centro">
+            <p class="full-content texto">
+                O <span>tunelamento</span> permite encapsular pacotes de dados para que sejam transmitidos com segurança
+                por redes públicas como a Internet. Ele é fundamental para a criação de <span>VPNs (redes privadas
+                    virtuais)</span>, onde os dados trafegam de forma <span>criptografada</span> por um “túnel” digital,
+                conectando usuários remotos a redes corporativas de forma protegida. Isso assegura <span>privacidade,
+                    integridade</span> e acesso seguro a recursos internos.
+            </p>
+            <img src="/Assets/placeholder.png" alt="" class="full-content imagem">
+        </div>
+
+        <div class="full-content">
+            <h1 class="subtitulo">MPLS (Multiprotocol Label Switching)</h1>
+        </div>
+        <div class="centro">
+            <p class="full-content texto">
+                O <span>MPLS</span> usa rótulos para direcionar dados rapidamente entre pontos da rede. Opera entre as camadas 2 e 3 do modelo OSI e pode ser usado com <span>ethernet, ATM, frame relay</span> ou <span>IPv6</span>.
+            </p>
+        </div>
+
+        <div class="full-content">
+            <h1 class="subtitulo">SD-WAN (WAN Definida por Software)</h1>
+        </div>
+        <div class="centro">
+            <p class="full-content texto">
+                A <span>SD-WAN</span> é uma abordagem moderna que passa o controle da rede para uma
+                <span>camada de software</span>. Ao <span>utilizar conexões de Internet</span> convencionais e estáveis, ela oferece
+                uma alternativa mais <span>flexível</span> e econômica ao MPLS, que depende de hardware. A SD-WAN permite configurar e otimizar o
+                tráfego entre filiais, data centers e a nuvem, com foco em agilidade, segurança e <span>redução de custos</span>.
+                Mesmo assim, a SD-WAN pode usar aproveitar e usar o MPLS.
+            </p>
+            <img src="/Assets/placeholder.png" alt="" class="full-content imagem">
+        </div>
+        
+        <!-- Nome do tópico -->
 
         <div class="centro">
             <p class="full-content texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro aperiam,
