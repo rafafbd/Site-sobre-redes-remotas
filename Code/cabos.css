@@ -36,6 +36,24 @@ body{
     flex-wrap: wrap;
 }
 
+.direita{
+    display: flex;
+    justify-content: right;
+    margin-top: -100rem;
+    margin-left: 64rem;
+    flex-wrap: wrap;
+    width: 34rem;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.centro{
+    display: flex;
+    justify-content: left;
+    margin-left: 25rem;
+    flex-wrap: wrap;
+}
+
 .meio{
     display: flex;
     align-items: center;
@@ -50,6 +68,11 @@ body{
 .full-content{
     width: 60%;
 
+}
+
+.redondo{
+    border-radius: 10px;
+    border: 3px solid var(--bracoc);
 }
 
 .padCima{
@@ -77,6 +100,11 @@ body{
 .texto{
     color: var(--bracoc);
     font-size: 2rem;
+}
+
+.texto-imagem{
+    color: var(--bracoc);
+    font-size: 1.5rem;
 }
 
 .lista{
@@ -110,6 +138,14 @@ header{
     color: var(--branco);
     text-decoration: none;
     font-size: 1.5rem;
+}
+
+.divisor{
+    border: 1px solid white;
+    margin-left: 62rem;
+    margin-top: -60rem;
+    height: 100rem;
+    width: 0px;
 }
 
 main{
