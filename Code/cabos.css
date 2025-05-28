@@ -36,16 +36,6 @@ body{
     flex-wrap: wrap;
 }
 
-.direita{
-    display: flex;
-    justify-content: right;
-    margin-top: -100rem;
-    margin-left: 64rem;
-    flex-wrap: wrap;
-    width: 34rem;
-    height: 100%;
-    border: 1px solid black;
-}
 
 .centro{
     display: flex;
@@ -79,9 +69,6 @@ body{
     padding-top: 1rem;
 }
 
-.imagem{
-    height: 28rem;
-}
 
 .titulo{
     color: var(--branco);
@@ -100,6 +87,11 @@ body{
 .texto{
     color: var(--bracoc);
     font-size: 2rem;
+}
+
+.texto-topo{
+    color: var(--bracoc);
+    font-size: 3rem;
 }
 
 .texto-imagem{
