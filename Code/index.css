@@ -117,6 +117,16 @@ header{
     width: 50%;
 }
 
+#MPLS{
+    height: 70%;
+    width: 70%;
+}
+
+#TCPIP{
+    height: 50%;
+    width: 50%;
+}
+
 main{
     padding-top: 5rem;
     background-color: var(--pretoCla); 
