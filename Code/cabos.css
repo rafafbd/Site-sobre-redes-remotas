@@ -69,13 +69,19 @@ body{
     padding-top: 1rem;
 }
 
+.lista{
+    list-style-type: disc;
+}
+
+.lista li::marker{
+    color: var(--branco);
+}
 
 .titulo{
-    color: var(--branco);
+    color: #f3ffb0;
     font-size: 4rem;
     font-weight: bolder;
 }
-
 .subtitulo{
     color: var(--branco);
     font-size: 3rem;
@@ -86,6 +92,11 @@ body{
 
 .texto{
     color: var(--bracoc);
+    font-size: 2rem;
+}
+
+.texto-lista{
+    color: #f3ffb0;
     font-size: 2rem;
 }
 
